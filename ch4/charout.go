@@ -8,7 +8,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 )
-=
+
 func main() {
 	counts := make(map[rune]int)
 	var utflen [utf8.UTFMax + 1]int
